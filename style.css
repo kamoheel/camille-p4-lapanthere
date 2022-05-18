@@ -811,7 +811,26 @@ h4 {
 }
 
 .bg-dots-bg {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    z-index: 0;
     background-image: url("img/dots-bg.png");
+}
+
+.bg-dots-bg::before {
+    content: "";
+    background-image: url("img/agence-la-panthere.jpg");
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.4;
+    z-index: -1;
 }
 
 .bg-lines-h2-bg {
@@ -867,6 +886,11 @@ h4 {
 .black {
     color: #000!important;
 }
+
+.text-center {
+    text-align: center;
+}
+
 
 @media (max-width: 1024px) {
     .bloc {
