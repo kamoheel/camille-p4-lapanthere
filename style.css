@@ -832,9 +832,8 @@ h4 {
     opacity: 0.4;
     z-index: -1;
 }
-
-.bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
+.fs {
+        font-size: 15px;
 }
 
 .bg-banniere {
