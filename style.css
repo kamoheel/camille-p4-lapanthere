@@ -890,6 +890,15 @@ h4 {
     text-align: center;
 }
 
+/* centrer les images et le texte de "Nos réalisations" en responsive */
+.col-sm-6 {
+    display: flex;
+    flex-direction: column;
+}
+
+.img-responsive {
+    margin: auto;
+}
 
 @media (max-width: 1024px) {
     .bloc {
